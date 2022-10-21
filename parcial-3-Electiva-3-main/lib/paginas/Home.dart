@@ -54,7 +54,12 @@ class _HomeState extends State<Home> {
                             image: AssetImage("assets/img/fbi-fedposting.gif"),
                             fit: BoxFit.fill)),
                   ),
-                  const SizedBox(height: 10),
+                  const SizedBox(height: 5),
+                  Icon(
+                    Icons.add_task,
+                    color: Colors.white,
+                  ),
+                  const SizedBox(height: 5),
                   const Text(
                     "INTEGRANTES DEL EQUIPO",
                     style: TextStyle(
