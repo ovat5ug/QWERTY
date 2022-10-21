@@ -64,13 +64,13 @@ class _HomeState extends State<Home> {
                   ),
                   Container(
                     child: Padding(
-                        padding: const EdgeInsets.only(left: 10, top: 20),
+                        padding: const EdgeInsets.only(left: 10, top: 5),
                         child: GestureDetector(
                             child: Column(
                           children: [
                             SizedBox(
                               width: ancho * 0.4,
-                              height: 40,
+                              height: 30,
                               child: const Text(
                                 "Escobar Ortegón Ruben 25-0001-2018",
                                 style: TextStyle(
@@ -84,7 +84,7 @@ class _HomeState extends State<Home> {
                             ),
                             SizedBox(
                               width: ancho * 0.4,
-                              height: 10,
+                              height: 25,
                               child: const Text(
                                 "Pérez Alberto Luis Gustavo 25-4879-2006",
                                 style: TextStyle(
@@ -103,7 +103,7 @@ class _HomeState extends State<Home> {
 
           //TODO contenido:
           Positioned(
-              top: 400,
+              top: 300,
               bottom: 0,
               width: ancho - 20,
               child: Column(
