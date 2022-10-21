@@ -62,6 +62,40 @@ class _HomeState extends State<Home> {
                         fontSize: 10,
                         fontWeight: FontWeight.bold),
                   ),
+                  Container(
+                    child: Padding(
+                        padding: const EdgeInsets.only(left: 10, top: 20),
+                        child: GestureDetector(
+                            child: Column(
+                          children: [
+                            SizedBox(
+                              width: ancho * 0.4,
+                              height: 40,
+                              child: const Text(
+                                "Escobar Ortegón Ruben 25-0001-2018",
+                                style: TextStyle(
+                                    color: Colors.white,
+                                    fontSize: 10,
+                                    fontWeight: FontWeight.bold),
+                              ),
+                            ),
+                            const SizedBox(
+                              height: 5,
+                            ),
+                            SizedBox(
+                              width: ancho * 0.4,
+                              height: 10,
+                              child: const Text(
+                                "Pérez Alberto Luis Gustavo 25-4879-2006",
+                                style: TextStyle(
+                                    color: Colors.white,
+                                    fontSize: 10,
+                                    fontWeight: FontWeight.bold),
+                              ),
+                            ),
+                          ],
+                        ))),
+                  ),
                 ],
               ),
             ),
@@ -69,7 +103,7 @@ class _HomeState extends State<Home> {
 
           //TODO contenido:
           Positioned(
-              top: 200,
+              top: 400,
               bottom: 0,
               width: ancho - 20,
               child: Column(
